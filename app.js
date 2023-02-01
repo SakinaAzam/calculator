@@ -4,7 +4,7 @@ let toggleTheme = document.getElementById('toggle-theme');
 let toggleBall = document.getElementById("toggle-ball");
 let ball = document.getElementById('ball');
 let screen = document.getElementById('screen');
-let output = document.getElementById('output');
+let input = document.getElementById('input');
 let keypad = document.getElementById('keypadBackground');
 let btn0 = document.getElementById("btn-0");
 let btn1 = document.getElementById('btn-1');
@@ -40,7 +40,7 @@ toggleBall.addEventListener('click', () => {
             toggleTheme.classList.add('text-black');
             header.classList.add('text-black');
             screen.classList.add('bg-[#EDEDED]');
-            output.classList.add('text-"black');
+            input.classList.add('text-black');
             keypad.classList.add('bg-[#D1CCCC]');
             btn1, btn0, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btnDiv, btnMinus, btnMulti, btnPoint, btnPlus.classList.add('bg-[#E5E4E1]');
             btnReset.classList.add('bg-[#377F86]');
@@ -62,7 +62,7 @@ toggleBall.addEventListener('click', () => {
             toggleTheme.classList.add('text-[#FFE53D]');
             header.classList.add('text-[#FFE53D]');
             screen.classList.add('bg-[#1D0934]');
-            output.classList.add('text-[#FFE53D]');
+            input.classList.add('text-[#FFE53D]');
             keypad.classList.add('bg-[#1D0934]');
             btn0.classList.add('bg-[#341C4F]');
             btn1.classList.add('bg-[#341C4F]');
@@ -135,7 +135,7 @@ toggleBall.addEventListener('click', () => {
             toggleTheme.classList.remove("text-[#FFE53D]");
             header.classList.remove("text-[#FFE53D]");
             screen.classList.remove("bg-[#1D0934]");
-            output.classList.remove("text-[#FFE53D]");
+            input.classList.remove("text-[#FFE53D]");
             keypad.classList.remove("bg-[#1D0934]");
             btn0.classList.remove("bg-[#341C4F]");
             btn1.classList.remove("bg-[#341C4F]");
@@ -203,7 +203,7 @@ toggleBall.addEventListener('click', () => {
              toggleTheme.classList.remove("text-black");
              header.classList.remove("text-black");
              screen.classList.remove("bg-[#EDEDED]");
-             output.classList.remove('text-"black');
+             input.classList.remove('text-"black');
              keypad.classList.remove("bg-[#D1CCCC]");
              btn1,
                btn0,
