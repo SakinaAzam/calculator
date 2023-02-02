@@ -14,20 +14,20 @@
   </head>
   <body  id="background" class="bg-[#2B4173] transition-all">
     <div class="max-w-[500px] w-full m-auto">
-      <div class="flex flex-col p-10"> 
-        <div id="toggle-theme" class="text-xs text-white text-right w-96 max-w-full"><pre>  1  2  3</pre></div>
+      <div class="flex flex-col p-10 mt-16 ml-2"> 
+        <div id="toggle-theme" class="text-xs text-white text-right w-96 max-w-full px-1"><pre>  1  2  3</pre></div>
         <div id="header" class="flex justify-between item-center text-white max-w-full w-96">
           <h1 class=" text-2xl font-bold">Calc</h1>
           <div class="flex justify-between item-end gap-3 font-thin tracking-wider">
             <div class="text-xs font-semibold mt-2">THEME</div>
-            <div id="toggle-ball" class="bg-[#182034] rounded-full p-1 w-14  h-6 mt-2 flex justify-start translate-x-[0px]">
+            <div id="toggle-ball" class="bg-[#182034] rounded-full p-1 w-14  h-6 mt-2 flex justify-start items-center px-1">
               <div id="ball" class=" rounded-full w-3 h-3 bg-[#D03F2F] "></div>
             </div>
           </div>
         </div>
-        <div id="screen" class="mt-4 w-96 h-24 max-w-full bg-[#182034] rounded-lg">
-          <input  id="input"  class="number  bg-transparent w-92 max-w-full outline-none border-none text-right p-6 font-['League Spartan'] text-white font-bold text-3xl">
-        </div>
+        <div id="screen" class="mt-4 w-96 h-24 max-w-full bg-[#182034]  rounded-lg">
+          <input type="button" id="input"  class="number  bg-transparent w-92 max-w-full outline-none border-none float-right p-6 font-['League Spartan'] text-white font-bold text-3xl">
+         </div>
         <div
           id="keypadBackground" class="w-96 max-w-full bg-[#232C43] mt-2 rounded-lg text-[#444B5A]"
         >
@@ -35,75 +35,75 @@
             class="grid grid-cols-4 gap-4 p-4 font-bold font-['League Spartan'] text-2xl"
           >
             <button id="btn-7" 
-              class="btn   w-full max-w-2xl h-14 bg-[#EAE3DC] hover:bg-[#FFFFFF] rounded-lg shadow-[0px_3px_0px_#B4A597]"
+              class="btn   w-full max-w-2xl h-14 bg-[#EAE3DC] rounded-lg shadow-[0px_3px_0px_#B4A597]"
             >
               7
             </button>
             <button id="btn-8" 
-              class=" btn w-full max-w-2xl h-14 bg-[#EAE3DC] hover:bg-[#FFFFFF] rounded-lg shadow-[0px_3px_0px_#B4A597]"
+              class=" btn w-full max-w-2xl h-14 bg-[#EAE3DC]  rounded-lg shadow-[0px_3px_0px_#B4A597]"
             >
               8</button
             ><button id="btn-9" 
-              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC] hover:bg-[#FFFFFF] rounded-lg shadow-[0px_3px_0px_#B4A597]"
+              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC]  rounded-lg shadow-[0px_3px_0px_#B4A597]"
             >
               9
             </button>
             <button id="btn-del" value="Del"
-              class="btn w-full max-w-2xl h-14 bg-[#637097] hover:bg-[#584D8F] rounded-lg shadow-[0px_3px_0px_#404E72] text-white font-semibold"
+              class="btn w-full max-w-2xl h-14 bg-[#637097] rounded-lg shadow-[0px_3px_0px_#404E72] text-white font-semibold"
             >
               Del</button
             ><button id="btn-4" 
-              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC] hover:bg-[#FFFFFF] rounded-lg shadow-[0px_3px_0px_#B4A597]"
+              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC]  rounded-lg shadow-[0px_3px_0px_#B4A597]"
             >
               4
             </button>
             <button id="btn-5" 
-              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC] hover:bg-[#FFFFFF] rounded-lg shadow-[0px_3px_0px_#B4A597]"
+              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC]  rounded-lg shadow-[0px_3px_0px_#B4A597]"
             >
               5
             </button>
             <button id="btn-6" 
-              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC] hover:bg-[#FFFFFF] rounded-lg shadow-[0px_3px_0px_#B4A597]"
+              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC] rounded-lg shadow-[0px_3px_0px_#B4A597]"
             >
               6</button
             ><button id="btn-plus" 
-              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC] hover:bg-[#FFFFFF] rounded-lg shadow-[0px_3px_0px_#B4A597]"
+              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC]  rounded-lg shadow-[0px_3px_0px_#B4A597]"
             >
               +
             </button>
             <button id="btn-1"
-              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC] hover:bg-[#FFFFFF] rounded-lg shadow-[0px_3px_0px_#B4A597]"
+              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC]  rounded-lg shadow-[0px_3px_0px_#B4A597]"
             >
               1</button
             ><button id="btn-2" 
-              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC] hover:bg-[#FFFFFF] rounded-lg shadow-[0px_3px_0px_#B4A597]"
+              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC]  rounded-lg shadow-[0px_3px_0px_#B4A597]"
             >
               2
             </button>
             <button id="btn-3"  
-              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC] hover:bg-[#FFFFFF] rounded-lg shadow-[0px_3px_0px_#B4A597]"
+              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC]  rounded-lg shadow-[0px_3px_0px_#B4A597]"
             >
               3</button
             ><button id="btn-minus" 
-              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC] hover:bg-[#FFFFFF] rounded-lg shadow-[0px_3px_0px_#B4A597]"
+              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC]  rounded-lg shadow-[0px_3px_0px_#B4A597]"
             >
               -
             </button>
             <button id="btn-point" 
-              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC] hover:bg-[#FFFFFF] rounded-lg shadow-[0px_3px_0px_#B4A597]"
+              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC]  rounded-lg shadow-[0px_3px_0px_#B4A597]"
             >
               .</button
             ><button id="btn-0" 
-              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC] hover:bg-[#FFFFFF] rounded-lg shadow-[0px_3px_0px_#B4A597]"
+              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC]  rounded-lg shadow-[0px_3px_0px_#B4A597]"
             >
               0
             </button>
             <button id="btn-div" 
-              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC] hover:bg-[#FFFFFF] rounded-lg shadow-[0px_3px_0px_#B4A597]"
+              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC]  rounded-lg shadow-[0px_3px_0px_#B4A597]"
             >
               /</button
             ><button id="btn-multi"
-              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC] hover:bg-[#FFFFFF] rounded-lg shadow-[0px_3px_0px_#B4A597]"
+              class="btn w-full max-w-2xl h-14 bg-[#EAE3DC]  rounded-lg shadow-[0px_3px_0px_#B4A597]"
             >
               *
             </button>
