@@ -226,7 +226,8 @@ toggleBall.addEventListener('click', () => {
              btnDel.classList.remove("shadow-[0px_3px_0px_#1B5F65]");
              btnIsEqual.classList.remove("bg-[#CA5502]");
              btnIsEqual.classList.remove("shadow-[0px_3px_0px_#893901]");
-
+            input.classList.remove("text-black");
+             
             theme = 1;
         break;
     
